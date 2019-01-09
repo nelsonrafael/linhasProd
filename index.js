@@ -44,7 +44,7 @@ app.get('/', (req,res) => res.send('Hello World'));
 // Use Api routes in the app
 app.use('/api', apiRoutes)
 
-//Launch app to listen to specified port
+// Launch app to listen to specified port
 app.listen(port, function () {
 	console.log("Running LinhasProd on port " + port);
 });
